@@ -1,0 +1,12 @@
+var a = 2;
+var b = 1;
+console.log(a);
+console.log(b);
+var result = --a - --b + ++b + b--;
+console.log(result);
+// --a;
+// --a - --b;
+// --a - --b + ++b;
+// --a - --b + ++b + b--;
+// console.log(a);
+// console.log(b);
